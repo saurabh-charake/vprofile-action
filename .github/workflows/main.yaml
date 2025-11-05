@@ -1,4 +1,4 @@
-name: vprofile-action
+name: vprofile action
 on: workflow_dispatch
 
 env:
@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: maven test
         run: mvn test
